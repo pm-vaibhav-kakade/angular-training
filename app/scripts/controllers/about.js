@@ -14,4 +14,7 @@ angular.module('angularTrainingApp')
       'AngularJS',
       'Karma'
     ];
+
+    $scope.repeatData = [1,2,3];
+
   });

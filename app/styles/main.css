@@ -19,7 +19,6 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -34,7 +33,6 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {
@@ -58,6 +56,23 @@ body {
 .marketing p + h4 {
   margin-top: 28px;
 }
+
+.nxtExample{
+  padding: 15px 0 25px 0;
+  border-bottom: 1px solid #ccc;
+
+}
+.nxtExample span.repeatSpan{
+  padding: 15px;
+  border: 1px solid;
+  margin-right: 25px;
+
+}
+.boldText{
+  font-weight: bold;
+  padding: 10px 0;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
